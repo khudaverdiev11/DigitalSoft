@@ -1,0 +1,100 @@
+@mixin loginbasket() {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    i{
+        font-size: 4vh;
+        margin-right: 1vh;
+    }
+    div{
+        p{
+            color: gray;
+            margin: 0;
+            padding: 0;
+        }
+        h4{
+            margin: 0;
+            padding: 0;
+
+        }
+    }
+  }
+.header{
+    .headersearch{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex: 11;
+        .icon{
+            flex: 2;
+            align-self: center;
+            text-align: center;
+        }
+        .search{
+            flex: 6;
+            select{
+                background-color: rgb(235, 200, 44);
+                margin-right:10px ;
+                height: 4vh;
+            }
+            input{
+                width: 40vh;
+                height: 4vh;
+            }
+        }
+        .shop{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            flex: 3;
+            .like{
+                i{
+                    font-size: 4vh;
+                }
+            }
+            .login{
+                @include loginbasket;
+            }
+            .basket{
+                @include loginbasket;
+            }
+        }
+
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex: 11;
+        .nav{
+            flex: 5;
+            ul{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                list-style: none;
+                li{
+                    font-size: 20px;
+                    &:hover{
+                        transition: 0.3s;
+                        color: rgb(241, 115, 136);
+                    }
+                }
+
+            }
+        }
+        .contact{
+            display: flex;
+            flex: 6;
+            justify-content: flex-end;
+            margin-right: 10vh;
+            font-size: 20px;
+        }
+
+    }
+
+}

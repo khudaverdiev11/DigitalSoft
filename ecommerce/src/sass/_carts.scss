@@ -1,0 +1,33 @@
+.carts{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3vh;
+    .cart{
+        width: 350px;
+        border: 1px solid red;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        .cartImg{
+            width: 100%;
+            height: 300px;
+            position: relative;
+            overflow: hidden;
+            img{
+                position: relative;
+                object-fit: contain;
+            }
+            .addcart{
+                position: absolute;
+                z-index: 3;
+                top: 0;
+                right: 0;
+                i{
+                    display: block;
+                    font-size: 3.3vh;
+                    margin-bottom: 1vh;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.slider{
+    display: flex;
+    padding:5px 10%;
+    .slideText{
+        position: absolute;
+        top: 5vh;
+        left: 10px;
+        display: flex;
+        align-items:flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 40vh;
+        div{
+            width: 20vh;
+            font-size: 20px;
+            font-weight: bold;
+            background-color:rgb(255, 223, 64);
+        }
+
+        
+    }
+
+}

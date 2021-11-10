@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "img": "https://cdn.discordapp.com/attachments/906592774722314241/906601898344345681/slide-1.jpg",
+        "offer": "30% OFF",
+        "title": "Big Choice Of Wheel Tires",
+        "details": "Any size and diameter,with or without spikes, summer or winter,rain or snow."
+    },
+    {
+        "id": 2,
+        "img": "https://cdn.discordapp.com/attachments/906592774722314241/906601901519409182/slide-2.jpg",
+        "offer": "40% OFF",
+        "title": "Big Choice Of Wheel Tires",
+        "details": "Any size and diameter,with or without spikes, summer or winter,rain or snow."
+    },
+    {
+        "id": 3,
+        "img": "https://cdn.discordapp.com/attachments/906592774722314241/906601904782577684/slide-3.jpg",
+        "offer": "50% OFF",
+        "title": "Big Choice Of Wheel Tires",
+        "details": "Any size and diameter,with or without spikes, summer or winter,rain or snow."
+    }
+]
