@@ -1,17 +1,18 @@
-import Header from "./component/Header/Header";
-import Sliderone from "./component/Slider/Slider";
-import Carts from "./Views/Carts";
-import ProductCards from "./component/Owl-Carousel/ProductCards";
-// import Slider from "./component/Slider/Slider";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from './component/Home/Header/Navbar';
+import Home from './component/Home/Home'
+import ProductDetail from "./component/Product Detail Page/ProductDetail";
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Sliderone />
-      <Carts />
-      <ProductCards />
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/ProductDetail/:productId" element={<ProductDetail />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

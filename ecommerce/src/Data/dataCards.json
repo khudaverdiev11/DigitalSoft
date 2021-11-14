@@ -2,41 +2,87 @@
     {
         "id": 1,
         "image": "https://cdn.discordapp.com/attachments/906592774722314241/906602405544751124/product-1-245x245.jpg",
-        "meta": "SKU: 140-10440-B",
+        "meta": "140-10440-B",
         "name": "Brandix Spark Plug Kit ASR-400",
         "rating": "4 Star",
-        "price": "$19.00"
+        "price": "$19.00",
+        "about": "Many philosophical debates that began in ancient times are still debated today. In one general sense, philosophy is associated with wisdom, intellectual culture and a search for knowledge.",
+        "speed": "750 RPM",
+        "powersource": "Cordless-Electric",
+        "batterycelltype": "Lithium",
+        "voltage": "20 volts",
+        "batterycapacity": "2 Ah",
+        "brand": "Brandix",
+        "country": "Japan",
+        "vendorcode": "BDX-750Z370-S"
     },
     {
         "id": 2,
         "image": "https://cdn.discordapp.com/attachments/906592774722314241/906602409328009256/product-2-245x245.jpg",
-        "meta": "SKU: 573-23743-C",
+        "meta": "573-23743-C",
         "name": "Brandix Brake Kit BDX-750Z370-S",
         "rating": "5 Star",
-        "price": "$224.00"
+        "price": "$224.00",
+        "about": "Many philosophical debates that began in ancient times are still debated today. In one general sense, philosophy is associated with wisdom, intellectual culture and a search for knowledge.",
+        "speed": "750 RPM",
+        "powersource": "Cordless-Electric",
+        "batterycelltype": "Lithium",
+        "voltage": "20 volts",
+        "batterycapacity": "2 Ah",
+        "brand": "Brandix",
+        "country": "Japan",
+        "vendorcode": "BDX-750Z370-S"
     },
     {
         "id": 3,
         "image": "https://cdn.discordapp.com/attachments/906592774722314241/907222540932509706/product-3-245x245.jpg",
-        "meta": "SKU: 009-50078-Z",
+        "meta": "009-50078-Z",
         "name": "Left Headlight Of Brandix Z54",
         "rating": "3 Star",
-        "price": "$349.00"
+        "price": "$349.00",
+        "about": "Many philosophical debates that began in ancient times are still debated today. In one general sense, philosophy is associated with wisdom, intellectual culture and a search for knowledge.",
+        "speed": "750 RPM",
+        "powersource": "Cordless-Electric",
+        "batterycelltype": "Lithium",
+        "voltage": "20 volts",
+        "batterycapacity": "2 Ah",
+        "brand": "Brandix",
+        "country": "Japan",
+        "vendorcode": "BDX-750Z370-S"
     },
     {
         "id": 4,
         "image": "https://cdn.discordapp.com/attachments/906592774722314241/907223153380581436/product-4-245x245.jpg",
-        "meta": "SKU: A43-44328-B",
+        "meta": "A43-44328-B",
         "name": "Glossy Gray 19' Aluminium Wheel AR-19",
         "rating": "4 Star",
-        "price": "$589.99"
+        "price": "$589.99",
+        "about": "Many philosophical debates that began in ancient times are still debated today. In one general sense, philosophy is associated with wisdom, intellectual culture and a search for knowledge.",
+        "speed": "750 RPM",
+        "powersource": "Cordless-Electric",
+        "batterycelltype": "Lithium",
+        "voltage": "20 volts",
+        "batterycapacity": "2 Ah",
+        "brand": "Brandix",
+        "country": "Japan",
+        "vendorcode": "BDX-750Z370-S"
+        
     },
     {
         "id": 5,
         "image": "https://cdn.discordapp.com/attachments/906592774722314241/907223733540909097/product-5-245x245.jpg",
-        "meta": "SKU: 729-51203-B",
+        "meta": "729-51203-B",
         "name": "Twin Exhaust Pipe From Brandix Z54",
         "rating": "4 Star",
-        "price": "$749.00"
+        "price": "$749.00",
+        "about": "Many philosophical debates that began in ancient times are still debated today. In one general sense, philosophy is associated with wisdom, intellectual culture and a search for knowledge.",
+        "speed": "750 RPM",
+        "powersource": "Cordless-Electric",
+        "batterycelltype": "Lithium",
+        "voltage": "20 volts",
+        "batterycapacity": "2 Ah",
+        "brand": "Brandix",
+        "country": "Japan",
+        "vendorcode": "BDX-750Z370-S"
     }
 ]

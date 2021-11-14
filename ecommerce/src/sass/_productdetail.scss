@@ -1,0 +1,23 @@
+.detailpage{
+    .detailrow{
+        .leftcol{
+            box-shadow: 2px 3px 4px 3px rgb(216, 216, 216);
+            .insiderow{
+                padding: 5%;
+                .contentcol{
+                    .rating{
+                        font-size: 1.2rem;
+                        color: red;
+                    }
+                    .keyfeatures{
+                        color: rgb(116, 115, 115);
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .rightcol{
+            box-shadow: 2px 3px 4px 3px rgb(216, 216, 216);
+        }
+    }
+}
