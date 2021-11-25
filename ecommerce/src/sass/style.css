@@ -296,4 +296,33 @@
   -webkit-box-shadow: 2px 3px 4px 3px #d8d8d8;
           box-shadow: 2px 3px 4px 3px #d8d8d8;
 }
+
+.shopping {
+  border: 1px solid red;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.shopping .box {
+  border: 1px solid red;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #48e248;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+}
 /*# sourceMappingURL=style.css.map */

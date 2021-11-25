@@ -10,7 +10,7 @@ const Card = (props) => {
                 <p className="card-text">{props.rating}</p>
                 <div className="card-footer d-flex flex-row justify-content-between">
                     <a href="#" className="btn btn-primary">{props.price}</a>
-                    <i className="fas fa-cart-plus"></i>
+                    <button type="submit" onClick={props.addcart}><i className="fas fa-cart-plus"></i></button>
                 </div>
                 <h6>{props.link}</h6>
             </div>

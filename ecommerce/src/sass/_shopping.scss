@@ -1,0 +1,15 @@
+.shopping{
+    border: 1px solid red;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    .box{
+        border: 1px solid red;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(72, 226, 72);
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+}
